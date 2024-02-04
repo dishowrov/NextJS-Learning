@@ -6,7 +6,7 @@ import siteLogo from "/src/app/img/logo-dark.png";
 function Header() {
     return (
         <header>
-            <div className="bg-purple-50">
+            <div className="bg-purple-50 py-[50px]">
                 <div className="container m-auto">
                     <div className="flex justify-between">
 
@@ -18,28 +18,28 @@ function Header() {
                         {/* Right */}
                         <div>
                             <ul>
-                                <li>
-                                    <Link href={"#"}> Home </Link>
+                                <li className="inline-block ml-5">
+                                    <Link href={"#"} className="active:text-red-200 border-b border-blue-500"> Home </Link>
                                 </li>
 
-                                <li>
-                                    <Link href={"#"}> About </Link>
+                                <li className="inline-block ml-5">
+                                    <Link href={"#"} className="active:text-red-200 border-b border-blue-500"> About </Link>
                                 </li>
 
-                                <li>
-                                    <Link href={"#"}> Services </Link>
+                                <li className="inline-block ml-5">
+                                    <Link href={"#"} className="active:text-red-200 border-b border-blue-500"> Services </Link>
                                 </li>
 
-                                <li>
-                                    <Link href={"#"}> Portfolio </Link>
+                                <li className="inline-block ml-5">
+                                    <Link href={"#"} className="active:text-red-200 border-b border-blue-500"> Portfolio </Link>
                                 </li>
 
-                                <li>
-                                    <Link href={"#"}> Experiences </Link>
+                                <li className="inline-block ml-5">
+                                    <Link href={"#"} className="active:text-red-200 border-b border-blue-500"> Experiences </Link>
                                 </li>
 
-                                <li>
-                                    <Link href={"#"}> Contact Us </Link>
+                                <li className="inline-block ml-5">
+                                    <Link href={"#"} className="active:text-red-200 border-b border-blue-500"> Contact Us </Link>
                                 </li>
 
                             </ul>
